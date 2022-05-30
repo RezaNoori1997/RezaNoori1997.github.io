@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+.botton1 {
+    padding-inline:19px;
+}
+.botton2 {
+    padding-inline:54px;
+}
+.botton3 {
+    padding-inline:43px;
+}
+.botton4 {
+    padding-inline:35px;
+}
+
+.icon {
+    color: #0d6efd;
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card-primary {
+    background: #1b2a4e;
+    color: white !important;
+}
+
+.bg-text{
+    color: black;
+}
+
+.bg-main {
+    /*background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);*/
+    background: lavender;
+}
+
+.bg-main-footer-header{
+    background: #222;
+    color: white;
+}
+
+
+/*.btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}*/
+/*.btn-grad {*/
+/*    !*margin: 10px;*!*/
+/*    !*padding: 15px 45px;*!*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*    transition: 0.5s;*/
+/*    background-size: 200% auto;*/
+/*    color: white;*/
+/*    box-shadow: 0 0 20px #eee;*/
+/*    border-radius: 10px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.btn-grad:hover {*/
+/*    background-position: right center; !* change the direction of the change here *!*/
+/*    color: #000000;*/
+/*    text-decoration: none;*/
+/*}*/
+
+.btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+.btn-grad {
+    /*margin: 10px;*/
+    /*padding: 15px 45px;*/
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
+.footer-header {
+    border-bottom: 3px solid;
+    height: 35px;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.img-panel{
+    clip-path: circle(50%);
+}
+
+.ul-panel{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
+}
